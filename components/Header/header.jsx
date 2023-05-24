@@ -14,7 +14,7 @@ const NAV__LINK = [
     display: "My Work",
   },
   {
-    path: "/resume.pdf",
+    path: "/Resume_SVaddi_Analyst.pdf",
     display: "Resume",
     target: "_blank"
   },
