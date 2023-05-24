@@ -1,7 +1,12 @@
 
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
+import Image from "next/image";
+import ufoimage from "../public/images/UFO.png";
+import chicago_fi_image from "../public/images/Chicago_FI.png";
+import nycimage from "../public/images/NYC_mvc.png";
+import seattleimage from "../public/images/Seattle.png";
+import usaimage from "../public/images/US_Accidents.png";
 import classes from "../styles/home.module.css";
 
 const Projects = () => {
@@ -103,16 +108,67 @@ const Projects = () => {
                 <div style={{ margin: '10px 0' }}>
                 <p> 
                 &quot;The goal is to turn data into information, and information into insight.&quot; - Carly Fiorina
-
                 </p>
-                <iframe 
-                src="https://public.tableau.com/app/profile/sindhuja.vaddi" 
-                title="Tableau Dashboard" 
-                width="800" 
-                height="600"
-                />
 
                 </div> 
+                <br />
+                <div style={{ margin: '10px 0' }}>
+                <p>
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/UFOSightingsVisualizations/UFOSightingsDashboards" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> UFO Sightings Visualizations </a>
+                </p>                            
+                <div className={`${classes.dataviz__img}`}>
+                <Image alt="ufo-image" src={ufoimage} width="1081" height="450" />
+                </div>
+                </div>
+                <br />
+                <br />
+
+                <div style={{ margin: '10px 0' }}>
+                <p>
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/NYCCollisionsDataAnalysis/NYCCollisionsDataAnalysis" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> NYC Collisions Data Analysis </a>
+                </p>                            
+                <div className={`${classes.dataviz__img}`}>
+                <Image alt="nyc_mvc-image" src={nycimage} width="1081" height="450" />
+                </div>
+                </div>
+                <br />
+                <br />
+
+                <div style={{ margin: '10px 0' }}>
+                <p>
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/BIAnalysisofChicagoFoodInspection/ChicagoFoodInspection" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> BI Analysis of Chicago Food Inspection </a> 
+                </p>                            
+                <div className={`${classes.dataviz__img}`}>
+                <Image alt="Chicago_FI-image" src={chicago_fi_image} width="1081" height="450" />
+                </div>
+                </div>
+                <br />
+                <br />
+
+                <div style={{ margin: '10px 0' }}>
+                <p>
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/USAccidents2016-2021DataAnalysis/USAccidents2016-2021Dashboards" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> US Accidents (2016 - 2021) Data Analysis </a>
+                </p>                            
+                <div className={`${classes.dataviz__img} `}>
+                <Image alt="usa_accidents-image" src={usaimage} width="1081" height="450" />
+                </div>
+                </div>
+                <br />
+                <br />
+
+                <div style={{ margin: '10px 0' }}>
+                <p>
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/SeattlePetLicensesDataAnalysis/SeattlePetLicenses-Dashboard" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> Seattle Pet Licenses Data Analysis </a> 
+                </p>                            
+                <div className={`${classes.dataviz__img} `}>
+                <Image alt="seattle-image" src={seattleimage} width="1081" height="450" />
+                </div>
+                </div>
 
                 <br />
                 <br />
