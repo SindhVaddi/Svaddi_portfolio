@@ -12,35 +12,35 @@ const Projects = () => {
           <Row>
             
             <Col lg="10" md="10">
-                <h9>Data Engineering Projects (ETL, Data Integration, Analysis, Cleaning, BI): </h9>
+                <h4>Data Engineering Projects (ETL, Data Integration, Analysis, Cleaning, BI): </h4>
 
                 <br />
                 <br />
 
                 <div style={{ margin: '10px 0' }}>
                 <p>
-                  <a href="https://github.com/SindhVaddi" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
-                  <i className="fab fa-github"></i> 1. Iowa Liquor Sales Data Analysis</a>: [ER Studio, Talend, Alteryx, SQL Server, Tableau, Power BI]
+                  <a href="https://github.com/SindhVaddi/Iowa-Liquor-Sales-Analysis" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> Iowa Liquor Sales Data Analysis</a>: [ER Studio, Talend, Alteryx, SQL Server, Tableau, Power BI]
                 </p>
                              
-                <p>• Structured the dimensional model to load 24 million records of Iowa Liquor Sales data </p>
-                <p>• Performed data load with multiple sources and data cleaning using tMap, tReplace, tAggregateRow, and triggers on Talend </p>
-                <p>• Generated over 50 reports and dashboards showcasing visualization of various KPIs using Tableau and Power BI </p>
+                <p>• Crafted an intricate and efficient dimensional model, seamlessly handling a vast volume of 24 million records from Iowa Liquor Sales data </p>
+                <p>• Orchestrated the data load process with finesse, leveraging the prowess of Talend, Alteryx, and SQL Server. Employed advanced techniques such as tMap, tReplace, tAggregateRow, and triggers on Talend to ensure clean and accurate data </p>
+                <p>• Transformed complex data into captivating visualizations, showcasing over 50 meticulously crafted reports and dynamic dashboards using Tableau and Power BI to showcase essential KPIs </p>
                 </div>
 
                 <br />
 
                 <div style={{ margin: '10px 0' }}>
                 <p>
-                  <a href="https://github.com/SindhVaddi" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
-                  <i className="fab fa-github"></i> 2. Analysis of New York, Dallas, and Chicago Food Inspection </a>: [Alteryx, SQL Server, Tableau, Power BI]
+                  <a href="https://github.com/SindhVaddi" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> Analysis of New York, Dallas, and Chicago Food Inspection </a>: [Alteryx, SQL Server, Tableau, Power BI]
                 </p>
                              
-                <p>• Designed dimensional models to create 6 Fact and 20-dimensional tables respective to New York, Dallas, and Chicago 
+                <p>• Developed comprehensive dimensional models to establish 6 fact tables and 20 dimensional tables specifically tailored to New York, Dallas, and Chicago
                 </p>
-                <p>• Executed profiling, transformations using regular expressions and parsing, and Cleaning on Alteryx               
+                <p>• Utilized Alteryx to execute data profiling, transformations employing regular expressions and parsing techniques, and data-cleaning operations
                 </p>
-                <p>• Created 100+ reports and dashboards using Tableau and Power BI to highlight inspections, violations, and severity over time
+                <p>• Created an extensive collection of 100+ reports and dashboards using Tableau and Power BI to highlight inspections, violations, and severity over time
                 </p>
                 </div>
                 
@@ -48,15 +48,19 @@ const Projects = () => {
 
                 <div style={{ margin: '10px 0' }}>
                 <p> 
-                  <a href="https://github.com/SindhVaddi/NYC-Motor-Vehicle-Collision_Data-Analysis" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
-                  <i className="fab fa-github"></i> 3. NYC Motor Vehicle Collision Analysis </a>: [Alteryx, Talend, SQL Server, Tableau, Power BI]
+                  <a href="https://github.com/SindhVaddi/NYC-Motor-Vehicle-Collision_Data-Analysis" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> NYC Motor Vehicle Collision Analysis </a>: [Alteryx, Talend, SQL Server, Tableau, Power BI]
                 </p>
                              
-                <p>• Designed dimensional models to create 6 Fact and 20-dimensional tables respective to New York, Dallas, and Chicago 
+                <p>• Developed comprehensive dimensional models to create 7 fact tables and 26 dimensional tables, tailored specifically to store and analyze 1.99 million rows of NYC Motor Vehicle Collision data
                 </p>
-                <p>• Executed profiling, transformations using regular expressions and parsing, and Cleaning on Alteryx               
+                <p>• Utilized Alteryx to execute data profiling on three source files obtained from Google BigQuery and TSV files and stored them in staging tables for further processing
                 </p>
-                <p>• Created 100+ reports and dashboards using Tableau and Power BI to highlight inspections, violations, and severity over time
+                <p>• Implemented error tables in Talend to effectively identify anomalies and cleanse the data, ensuring high data quality and accuracy
+                </p>
+                <p>• Performed data loading from multiple sources and conducted data cleaning operations using various components in Talend, such as tMap, tReplace, tUniqRow, tSplitRow, and tUnpivotRow
+                </p>
+                <p>• Created an extensive collection of over 70 reports and dashboards using Tableau and Power BI to visualize the analysis of metrics, time series, collision patterns, and fatal incidents, providing valuable insights into the dataset
                 </p>
                 </div> 
                     
@@ -64,13 +68,14 @@ const Projects = () => {
 
                 <div style={{ margin: '10px 0' }}>
                 <p> 
-                  <a href="https://github.com/SindhVaddi/NYC-Motor-Vehicle-Collision_Data-Analysis" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
-                  <i className="fab fa-github"></i> 4. Data Analysis of US Accidents (2016 - 2021) </a>: [Python, Tableau]
+                  <a href="https://public.tableau.com/app/profile/sindhuja.vaddi/viz/USAccidents2016-2021DataAnalysis/USAccidents2016-2021Dashboards" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> Data Analysis of US Accidents (2016 - 2021) </a>: [Python, Tableau]
                 </p>
                              
-                <p>• Conducted data profiling, cleansing, and wrangling operations using Python on a large dataset, &quot;US Accidents (2016-2021),&quot; containing over 2.5 million rows
+                <p>• Utilized Python to perform data profiling, cleansing, and wrangling tasks on a substantial dataset titled "US Accidents (2016-2021)," encompassing more than 2.5 million rows
+
                 </p>
-                <p>• Employed visualization techniques to uncover patterns, trends, and outliers in the data through the creation of detailed reports and dashboards using Tableau
+                <p>• Leveraged Tableau to employ advanced visualization techniques, generating comprehensive reports and interactive dashboards that effectively revealed data patterns, trends, and outliers
                 </p>
                 </div>
                  
@@ -78,14 +83,14 @@ const Projects = () => {
 
                 <div style={{ margin: '10px 0' }}>
                 <p> 
-                  <a href="https://github.com/SindhVaddi/SDN-Intrusion-Detection-Analsis" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
-                  <i className="fab fa-github"></i> 5. SDN Intrusion Detection Data Analysis </a>: [Neo4j, Python (Pandas, Matplotlib, Seaborn)]
+                  <a href="https://github.com/SindhVaddi/SDN-Intrusion-Detection-Analsis" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
+                  <i className="fab fa-github"></i> SDN Intrusion Detection Data Analysis </a>: [Neo4j, Python (Pandas, Matplotlib, Seaborn)]
 
                 </p>
                              
-                <p>• Detected more than 344,000 instances of malicious attacks in the SDN Intrusion Detection data
+                <p>• Identified more than 344,000 instances of malicious attacks in the SDN Intrusion Detection data
                 </p>
-                <p>• Devised nodes and relationships to represent 1 million rows of data, enabling comprehensive reporting and BI analysis to showcase various attack types and their distinctive characteristics
+                <p>• Devised a robust data model comprising nodes and relationships to accurately represent and analyze 1 million rows of data, enabling comprehensive reporting and BI analysis to showcase various attack types and their distinctive characteristics
                 </p>
                 </div>
 
@@ -93,7 +98,7 @@ const Projects = () => {
                 <br />
                 <br />
 
-                <h9>Data Visualizations:  </h9>
+                <h4>Data Visualizations:  </h4>
 
                 <div style={{ margin: '10px 0' }}>
                 <p> 
@@ -113,11 +118,11 @@ const Projects = () => {
                 <br />
                 <br />
              
-                <h9>Web Development:  </h9>
+                <h4>Web Development:  </h4>
  
                 <div style={{ margin: '10px 0' }}>
                 <p>
-                  <a href="https://github.com/SindhVaddi" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>
+                  <a href="https://github.com/SindhVaddi/Svaddi_portfolio" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
                   <i className="fab fa-github"></i> This Website </a>: [React, HTML, CSS] 
                 </p>
                             
