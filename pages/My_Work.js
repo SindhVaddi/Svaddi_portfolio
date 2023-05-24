@@ -29,7 +29,7 @@ const Projects = () => {
                 </p>
                              
                 <p>• Crafted an intricate and efficient dimensional model, seamlessly handling a vast volume of 24 million records from Iowa Liquor Sales data </p>
-                <p>• Orchestrated the data load process with finesse, leveraging the prowess of Talend, Alteryx, and SQL Server. Employed advanced techniques such as tMap, tReplace, tAggregateRow, and triggers on Talend to ensure clean and accurate data </p>
+                <p>• Orchestrated the data load process with finesse, leveraging the prowess of Talend, Alteryx, and SQL Server. Employed advanced techniques such as tMap, tReplace, tAggregateRow, and triggers on Talend to ensure data integrity and precision </p>
                 <p>• Transformed complex data into captivating visualizations, showcasing over 50 meticulously crafted reports and dynamic dashboards using Tableau and Power BI to showcase essential KPIs </p>
                 </div>
 
@@ -38,7 +38,7 @@ const Projects = () => {
                 <div style={{ margin: '10px 0' }}>
                 <p>
                   <a href="https://github.com/SindhVaddi" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
-                  <i className="fab fa-github"></i> Analysis of New York, Dallas, and Chicago Food Inspection </a>: [Alteryx, SQL Server, Tableau, Power BI]
+                  <i className="fab fa-github"></i> Analysis of New York, Dallas, and Chicago Food Inspection </a>: [ER Studio, Alteryx, SQL Server, Tableau, Power BI]
                 </p>
                              
                 <p>• Developed comprehensive dimensional models to establish 6 fact tables and 20 dimensional tables specifically tailored to New York, Dallas, and Chicago
@@ -54,7 +54,7 @@ const Projects = () => {
                 <div style={{ margin: '10px 0' }}>
                 <p> 
                   <a href="https://github.com/SindhVaddi/NYC-Motor-Vehicle-Collision_Data-Analysis" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
-                  <i className="fab fa-github"></i> NYC Motor Vehicle Collision Analysis </a>: [Alteryx, Talend, SQL Server, Tableau, Power BI]
+                  <i className="fab fa-github"></i> NYC Motor Vehicle Collisions Analysis </a>: [ER Studio, Alteryx, Talend, SQL Server, Tableau, Power BI]
                 </p>
                              
                 <p>• Developed comprehensive dimensional models to create 7 fact tables and 26 dimensional tables, tailored specifically to store and analyze 1.99 million rows of NYC Motor Vehicle Collision data
@@ -179,7 +179,7 @@ const Projects = () => {
                 <div style={{ margin: '10px 0' }}>
                 <p>
                   <a href="https://github.com/SindhVaddi/Svaddi_portfolio" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
-                  <i className="fab fa-github"></i> This Website </a>: [React, HTML, CSS] 
+                  <i className="fab fa-github"></i> This Website </a>: [Visual Studio Code, Git, React, CSS, Vercel] 
                 </p>
                             
                 </div> 
