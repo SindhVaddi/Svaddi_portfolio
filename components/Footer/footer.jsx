@@ -14,12 +14,7 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          {/* ========= footer top =========== */}
-          
-
-          
-
-          {/* ========= footer bottom ========= */}
+        
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>

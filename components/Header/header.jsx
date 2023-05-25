@@ -38,25 +38,21 @@ const NAV__LINK = [
 </div>
 
 
-
-
 const Header = () => {
-const headerRef = useRef(null);
+  const headerRef = useRef(null);
 
+  const menuRef = useRef(null);
 
-const menuRef = useRef(null);
-
-
-const headerFunc = () => {
-  if (
-    document.body.scrollTop > 80 ||
-    document.documentElement.scrollTop > 80
-  ) {
-    headerRef.current.classList.add(`${classes.header__shrink}`);
-  } else {
-    headerRef.current.classList.remove(`${classes.header__shrink}`);
-  }
-};
+  const headerFunc = () => {
+    if (
+      document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80
+    ) {
+      headerRef.current.classList.add(`${classes.header__shrink}`);
+    } else {
+      headerRef.current.classList.remove(`${classes.header__shrink}`);
+    }
+  };
 
 
 

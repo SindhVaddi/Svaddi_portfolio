@@ -56,18 +56,12 @@ const Contact = () => {
                   
               </div>
 
-
-
-
-
-
-               
-
             </Col>
           </Row>
         </Container>
       </div>
       </div>
+
     );
   };
   

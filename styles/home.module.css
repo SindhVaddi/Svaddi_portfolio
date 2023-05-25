@@ -1,5 +1,5 @@
 .home {
-    padding-top: 10px;
+    padding-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
   } 
@@ -8,7 +8,7 @@
   .contact {
     margin-left: 40px;
     margin-right: 40px;
-    padding-top: 10px;
+    padding-top: 30px;
     position: absolute;  
 }
 
@@ -16,6 +16,7 @@
   .home__content h5 {
     color: #808dad;
     font-weight: 400;
+    position: absolute
   }
   
   .home__content {
