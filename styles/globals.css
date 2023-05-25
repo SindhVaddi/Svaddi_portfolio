@@ -84,34 +84,3 @@ footer {
   color: #01d293;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background: #808dad;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 2em;
-  background: #171f38;
-}
-
-@media only screen and (max-width: 992px) {
-  p {
-    font-size: 0.9rem !important;
-  }
-
-  .primary__btn a,
-  .secondary__btn a {
-    font-size: 0.9rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  section {
-    padding-top: 110px;
-  }
-
-  footer {
-    padding-top: 0;
-    border: none;
-  }
-}

@@ -11,15 +11,14 @@ import classes from "../styles/home.module.css";
 
 const Projects = () => {
     return (
-      <div style={{ marginTop: '40px' , marginLeft: "40px", marginRight: "40px" }}> 
+      <div style={{ marginTop: '55px' , marginLeft: "40px", marginRight: "40px" }}> 
       <div className={`${classes.contact}`} style={{ marginLeft: "40px", marginRight: "40px" }}>
       <Container>
           <Row>
             
             <Col lg="10" md="10">
-                <h4>Data Engineering Projects (ETL, Data Integration, Analysis, Cleaning, BI): </h4>
+                <h5>Data Engineering Projects (ETL, Data Integration, Analysis, Cleaning, BI): </h5>
 
-                <br />
                 <br />
 
                 <div style={{ margin: '10px 0' }}>
@@ -103,7 +102,7 @@ const Projects = () => {
                 <br />
                 <br />
 
-                <h4>Data Visualizations:  </h4>
+                <h5>Data Visualizations:  </h5>
 
                 <div style={{ margin: '10px 0' }}>
                 <p> 
@@ -174,8 +173,8 @@ const Projects = () => {
                 <br />
                 <br />
              
-                <h4>Web Development:  </h4>
- 
+                <h5>Web Development:  </h5>
+                <br />
                 <div style={{ margin: '10px 0' }}>
                 <p>
                   <a href="https://github.com/SindhVaddi/Svaddi_portfolio" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>

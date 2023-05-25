@@ -9,12 +9,12 @@ import classes from "../../styles/home.module.css";
 const Home = () => {
     return (
       <div style={{ marginBottom: '10px' , marginLeft: "40px", marginRight: "40px" }}> 
-      <section className={`${classes.hero}`}>
+      <section className={`${classes.home}`}>
         <Container>
           <Row>
-            {/* ========== hero content ============= */}
+            {/* ========== home content ============= */}
             <Col lg="6" md="6">
-              <div className={`${classes.hero__content}`}>
+              <div className={`${classes.home__content}`}>
                 
                 <p style={{ color: 'mediumaquamarine' }} > — Hello, it&apos;s nice to meet you :) </p>
                 
