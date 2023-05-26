@@ -193,8 +193,7 @@ const Projects = () => {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />         
+                       
             </Col>
 
             <Col lg="12">

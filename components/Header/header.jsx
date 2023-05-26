@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import React, { useRef, useEffect } from "react";
 import classes from "./header.module.css";
@@ -82,7 +81,7 @@ return (
        
 
 
-        {/* ========= nav menu =========== */}
+        {/* ========= Navigation Menu =========== */}
         <div
           className={`${classes.navigation}`}
           ref={menuRef}

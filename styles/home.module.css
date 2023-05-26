@@ -60,16 +60,16 @@
   
   @media only screen and (max-width: 992px) {
     .home__content h2 {
-      font-size: 1.5rem !important;
+      font-size: 1.5rem;
     }
   
     .home__content h5 {
-      font-size: 1.1rem !important;
+      font-size: 1.1rem;
     }
   
     .home__img  {
-      width: 250px !important;
-      height: 250px !important;
+      width: 250px;
+      height: 250px;
     }
   
     .home__content {
@@ -82,7 +82,7 @@
   @media only screen and (max-width: 768px) {
     .home__img {
       display: static;
-      text-align: center !important;
+      text-align: center;
       margin-top: 50px;
     }
 

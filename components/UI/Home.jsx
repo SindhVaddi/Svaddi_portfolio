@@ -7,6 +7,8 @@ import classes from "../../styles/home.module.css";
 
 
 const Home = () => {
+  const date = new Date();
+  const year = date.getFullYear();
     return (
       <div style={{ marginBottom: '10px' , marginLeft: "40px", marginRight: "40px" }}> 
       <section className={`${classes.home}`}>
@@ -33,6 +35,12 @@ const Home = () => {
                 Please feel free to reach out to me at: 
                 <i className="ri-mail-line"></i>vaddi.k@northeastern.edu
                 </p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            
                 
                 
               </div>
@@ -47,6 +55,16 @@ const Home = () => {
 
               </div>
             </Col>
+
+            <Col lg="12">
+            <div className={`${classes.footer}`}>
+              <p>
+                &copy; Copyright {year} - Developed by Sindhu Vaddi. All right
+                reserved.{" "}
+              </p>
+            </div>
+          </Col> 
+
           </Row>
         </Container>        
       </section>
