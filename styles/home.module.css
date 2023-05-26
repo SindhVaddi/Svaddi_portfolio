@@ -10,7 +10,16 @@
     margin-right: 40px;
     padding-top: 30px;
     position: absolute;  
-}
+  }
+
+  .footer {
+    border-top: 1px solid #808dad49;
+  }
+  .footer p {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 20px;
+  }
 
 
   .home__content h5 {

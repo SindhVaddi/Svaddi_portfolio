@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
 import classes from "../styles/home.module.css";
 
 
 const Contact = () => {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
       <div style={{ marginBottom: '10px' , marginLeft: "40px", marginRight: "40px" }}> 
       <div className={`${classes.contact}`} style={{ marginLeft: "40px", marginRight: "40px" }}>
@@ -53,15 +54,29 @@ const Contact = () => {
                     <i className="fas fa-chart-bar"></i> Tableau Public
                      </a>
                   </li>
-                  
-              </div>
-
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />                              
             </Col>
+
+          <Col lg="12">
+            <div className={`${classes.footer}`}>
+              <p>
+                &copy; Copyright {year} - Developed by Sindhu Vaddi. All right
+                reserved.{" "}
+              </p>
+            </div>
+          </Col> 
+
           </Row>
         </Container>
       </div>
       </div>
-
     );
   };
   

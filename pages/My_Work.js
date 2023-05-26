@@ -10,6 +10,8 @@ import usaimage from "../public/images/US_Accidents.png";
 import classes from "../styles/home.module.css";
 
 const Projects = () => {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
       <div style={{ marginTop: '55px' , marginLeft: "40px", marginRight: "40px" }}> 
       <div className={`${classes.contact}`} style={{ marginLeft: "40px", marginRight: "40px" }}>
@@ -180,11 +182,30 @@ const Projects = () => {
                   <a href="https://github.com/SindhVaddi/Svaddi_portfolio" target="_blank" rel="noopener noreferrer" style={{color: 'mediumaquamarine'}}>
                   <i className="fab fa-github"></i> This Website </a>: [Visual Studio Code, Git, React, CSS, Vercel] 
                 </p>
+                <p>• Designed the website to effectively highlight personal traits, skills, and achievements for potential employers or clients
+                </p>
+                <p>• Implemented Git for version control and Vercel for seamless Continuous Deployment
+                </p>
                             
-                </div> 
-
-            
+                </div>   
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />         
             </Col>
+
+            <Col lg="12">
+            <div className={`${classes.footer}`}>
+              <p>
+                &copy; Copyright {year} - Developed by Sindhu Vaddi. All right
+                reserved.{" "}
+              </p>
+            </div>
+            </Col> 
+
           </Row>
         </Container>
       </div>
